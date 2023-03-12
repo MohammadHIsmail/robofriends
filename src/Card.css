@@ -1,0 +1,75 @@
+/* input[type=checkbox] {
+    display: none;
+  }
+  
+.container img {
+    cursor: pointer;
+}
+
+input[type=checkbox]:checked ~ label > img {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+input[type=checkbox]:checked ~ label > h2 {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+input[type=checkbox]:checked ~ label > p {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+input[type=checkbox]:checked ~ label > div {
+    display: block; 
+    position: fixed; 
+    z-index: 1; 
+    padding: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(43, 179, 241); 
+    background-color: rgba(43, 179, 241); 
+    cursor: pointer;
+} */
+
+
+
+.robots-wrapper .open{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    top: 0;
+    margin: 0 !important;
+    left: 0;
+    background: linear-gradient(to left, rgb(7, 45, 95) 0%,rgb(19, 116, 161) 100%);
+}
+
+.open div{
+    border: 2px solid rgb(37, 126, 133);
+    /*position: absolute;
+    top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    margin: 80px 460px;
+    padding: auto;*/
+    transform: scale(1.1);
+    background-color: rgb(8, 118, 151) ;
+    border-radius: 10px;
+}
+
+.open div p{
+    color:rgb(226, 40, 96);
+}
+
+.open div h2{
+    color:rgb(196, 47, 196);
+}
